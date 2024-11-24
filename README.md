@@ -1,5 +1,6 @@
 # SourceCode
 #1. Program Angka Terbilang
+
 Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 Handles Button1.Click
 If TextBox1.Text = 1 Then
@@ -45,6 +46,7 @@ End If
 End Sub
 
 #2. Grade
+
 Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 Handles Button1.Click
 If TextBox1.Text >= 80 Then
@@ -70,6 +72,7 @@ End If
 End Sub
 
 #3. Password Sederhana
+
 Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 Handles Button1.Click
 If TextBox1.Text = "Nobi" And TextBox2.Text = "Permana" Then
